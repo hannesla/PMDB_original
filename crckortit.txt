@@ -1,0 +1,138 @@
+Luokat:
+
++------------------------------------------------+------------+
+|Luokan nimi: Kokoelma                           |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  | -Elokuva   |  
+| - Elokuvat, Roolit, Relaatiot ja Henkilot      | -Nayttelija|
+|   luokkien välisestä yhteistyöstä ja välittää  | -Rooli     |
+|   näitä tietoja tarvittaessa                   | -Relaatio  |
+| - Lukee ja kirjoittaa kokoelman tiedostoon     | -Elokuvat  |
+|   pyytämällä apua avustajiltaan                | -Nayttelijat
+|                                                | -Roolit    |
+|                                                | -Relaatiot |
+|                                                |            |
++------------------------------------------------+------------+
+
+
++------------------------------------------------+------------+
+|Luokan nimi: Elokuva                            |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  |            | 
+|                                                |            |
+|- tietää yksittäisen elokuvan kentät (nimi,     |            |
+|  ohjaaja, näyttelijät, käsikirjoittajat,       |            |
+|  avainsanat)                                   |            |
+|                                                |            |
+|- osaa tarkistaa kentän syntaksin               |            |
+|                                                |            |
+|- osaa muuttaa Elokuvan tiedoiksi merkkijonon   |            |
+|  |Inception|...|                               |            |
+|                                                |            |
+|- osaa antaa merkkijonona i:n kentän tiedot     |            |
+|                                                |            |
+|- osaa laittaa merkkijonon i:nnen kentän        |            |
+|  tiedoksi                                      |            |
+|                                                |            |
++------------------------------------------------+------------+
+
+
++------------------------------------------------+------------+
+|Luokan nimi: Henkilo                            |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  |            | 
+|                                                |            |
+| - osaa tarkistaa kentän syntaksin              |            |
+| - Tietää hekilöiden kentät                     |            |
+| - osaa muuttaa "3|Leonardo DiCaprio" merkkijon.|            |
+|   henkilön tiedoiksi                           |            |
+| - osaa antaa merkkijonona i:n kentän tiedot    |            | 
+| - osaa laittaa merkkijonon i:neksi kentäksi    |            | 
+|                                                |            |
++------------------------------------------------+------------+
+
++------------------------------------------------+------------+
+|Luokan nimi: Relaatio                           |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  |            | 
+|                                                |            |
+| - osaa tarkistaa kentän syntaksin              |            |
+| - Tietää relaatioiden kentät                   |            |
+| - osaa muuttaa "3|4|2"  merkkijonon ralaatio   |            |
+|   relaatiotiedoksi                             |            |
+| - osaa antaa merkkijonona i:n kentän tiedot    |            | 
+| - osaa laittaa merkkijonon i:neksi kentäksi    |            | 
+|                                                |            |
++------------------------------------------------+------------+
+
+
++------------------------------------------------+------------+
+|Luokan nimi: Rooli                              |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  |            | 
+|                                                |            |
+| - osaa tarkistaa roolin syntaksin              |            |
+| - Tietää roolin kentät                         |            |
+| - osaa muuttaa "3|ohjaaja"  merkkijonon        |            |
+|   roolitiedoksi                                |            |
+| - osaa antaa merkkijonona i:n kentän tiedot    |            | 
+| - osaa laittaa merkkijonon i:neksi kentäksi    |            | 
+|                                                |            |
++------------------------------------------------+------------+
+
++------------------------------------------------+------------+
+|Luokan nimi: Elokuvat                           |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  | -Elokuva   | 
+|                                                |            |
+| - Osaa lisätä ja poistaa Elokuvan              |            |
+| - Lukee ja kirjoittaa elokuvat tiedostoa       |            |
+| - osaa etsiä ja lajitella                      |            |
+|                                                |            |
++------------------------------------------------+------------+
+
++------------------------------------------------+------------+
+|Luokan nimi: Henkilot                           |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  | - Henkilo  | 
+|                                                |            |
+| - Osaa lisätä ja poistaa Henkilon              |            |
+| - Lukee ja kirjoittaa henkilot tiedostoa       |            |
+| - osaa etsiä ja lajitella                      |            |
+|                                                |            |
++------------------------------------------------+------------+
+
+
++------------------------------------------------+------------+
+|Luokan nimi: Relaatiot                          |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  | - Relaatio | 
+|                                                |            |
+| - Osaa lisätä ja poistaa Relaation             |            |
+| - Lukee ja kirjoittaa relaatiot tiedostoa      |            |
+| - osaa etsiä ja lajitella                      |            |
+|                                                |            |
++------------------------------------------------+------------+
+
+
++------------------------------------------------+------------+
+|Luokan nimi: Roolit                             |Avustajat:  |
++------------------------------------------------+------------+
+| Vastuualueet:                                  |- Rooli     | 
+|                                                |            |
+| - Osaa lisätä ja poistaa Roolin                |            |
+| - Lukee ja kirjoittaa roolit tiedostoa         |            |
+| - osaa etsiä ja lajitella                      |            |
+|                                                |            |
++------------------------------------------------+------------+
+
++------------------------------------------------+------------+
+|Luokan nimi: Naytto                             |Avustajat:  |
++------------------------------------------------+------------+
+|  Vastuualueet:                                 | - Kokoelma |  
+|                                                | - Elokuva  |
+|  - Hoitaa kaiken Näyttöön tulevan tekstin      | - Rooli    |
+|                                                | - Relaatio |
+|  - Hoitaa kaiken tiedon pyytämisen käyttäjältä | - Henkilo  |
+|                                                |            |
++------------------------------------------------+------------+
