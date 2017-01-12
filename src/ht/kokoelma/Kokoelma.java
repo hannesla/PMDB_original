@@ -11,7 +11,7 @@ import ht.kanta.ElokuvaTarkistus;
  * Luokka joka huolehtii tietokannan hallinnasta välittäjämetodien avulla
  * 
  * @author Hannes Laukkanen
- * @version 24.2.2016
+ * @version 12.1.2016
  * hannes.v.laukkanen@student.jyu.fi
  */
 public class Kokoelma {
